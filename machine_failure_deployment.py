@@ -41,6 +41,6 @@ if st.button("Predict"):
     prediction = model.predict(df)[0]
 
     if prediction == 0:
-      st..write("Machine Deployed Successfully")
+      st.write("Machine Deployed Successfully")
     else:
         st.write("Machine Failed")
