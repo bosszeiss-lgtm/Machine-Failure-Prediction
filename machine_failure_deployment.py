@@ -13,7 +13,7 @@ import joblib
 
 model = joblib.load("Machine_Failure_Prediction.pkl")
 
-st.title("Machine_Failure_Prediction.pkl")
+st.title("Machine_Failure_Prediction")
 
 tempMode = st.number_input("tempMode")
 AQ = st.number_input("AQ")
