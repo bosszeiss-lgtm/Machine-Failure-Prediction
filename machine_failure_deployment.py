@@ -32,8 +32,7 @@ df = pd.DataFrame({
     "VOC": [VOC],
     "RP": [RP],
     "IP": [IP],
-    "Temperature": [Temperature],
-    "fail": [fail]
+    "Temperature": [Temperature]
 })
 
 if st.button("Predict"):
