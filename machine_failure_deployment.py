@@ -26,15 +26,15 @@ Temperature = st.number_input("Temperature "),
 fail = st.number_input("fail")
 
 df = pd.DataFrame({
-    "tempMode": tempMode,
-    "AQ": AQ,
-    "USS": USS,
-    "CS": CS,
-    "VOC": VOC,
-    "RP": RP,
-    "IP": IP,
-    "Temperature": Temperature,
-    "fail": fail
+    "tempMode": [tempMode],
+    "AQ": [AQ],
+    "USS": [USS],
+    "CS": [CS],
+    "VOC": [VOC],
+    "RP": [RP],
+    "IP": [IP],
+    "Temperature": [Temperature],
+    "fail": [fail]
 })
 
 if st.button("Predict"):
